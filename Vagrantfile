@@ -95,7 +95,6 @@ Vagrant.configure(2) do |config|
     sudo npm install -g less less-plugin-clean-css
 
     git clone https://www.github.com/odoo/odoo --depth 1 --branch 8.0 --single-branch /opt/odoo/
-    sudo mv /vagrant/odoo /opt/
     sudo mkdir /etc/odoo/
     sudo mkdir /var/log/odoo/
     sudo chown vagrant:vagrant -R /opt/odoo
